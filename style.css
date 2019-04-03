@@ -1,0 +1,34 @@
+.character-btn {
+    margin: 3px;
+}
+
+label {
+    color: white;
+}
+
+#character-form {
+    margin: 10px;
+}
+
+p {
+    color: white;
+}
+
+body { 
+    background: url(images/HPwallpaper.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.character {
+    width: 90%;
+}
+
+.img-container {
+    display: inline-block;
+    margin: 10px;
+}
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giftastic</title>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <!--Buttons to click will go here-->
+    <div id="button-container" class="text-center">
+      <img id="HP-Giftastic" src="images/HPGiftastic.png">
+      <div id="button-view"></div>
+      <form id="character-form">
+        <label for="character-input" id="character-input">Type another name: </label>
+        <input type="text" id="character-input">
+        <br>
+        <!-- Button triggers new movie to be added -->
+        <input id="add-character" type="submit" value="Add to the list!">
+      </form>
+    </div>
+
+    <!--Giphys will get dumped here-->
+    <div id="giphy-container"></div>
+  </div>
+</body>
+
+</html>
