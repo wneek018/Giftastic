@@ -99,10 +99,11 @@ $(document).ready(function () {
   $('#add-character').on('click', function (event) {
     event.preventDefault();
     // This line grabs the input from the textbox
-    var character = $('#character-input').val().trim();
+    var characterInput = $('#character-input').val().trim();
+    console.log(characterInput);
 
     // Adding character from the input box to our array
-    topics.push(character);
+    topics.push(characterInput);
 
     // Calling makeButtons which handles the processing of our character array
     makeButtons();
